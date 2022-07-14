@@ -51,8 +51,10 @@
 		6552E3F5287E7B3B006450C3 /* Pinch */ = {
 			isa = PBXGroup;
 			children = (
-				6552E3F6287E7B3B006450C3 /* PinchApp.swift */,
-				6552E3F8287E7B3B006450C3 /* ContentView.swift */,
+				6552E408287FDC34006450C3 /* Data */,
+				6552E406287FDC0D006450C3 /* Model */,
+				6552E405287FDBA6006450C3 /* View */,
+				6552E404287FDB87006450C3 /* Screen */,
 				6552E3FA287E7B3F006450C3 /* Assets.xcassets */,
 				6552E3FC287E7B3F006450C3 /* Preview Content */,
 			);
@@ -65,6 +67,36 @@
 				6552E3FD287E7B3F006450C3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6552E404287FDB87006450C3 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6552E3F8287E7B3B006450C3 /* ContentView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		6552E405287FDBA6006450C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6552E3F6287E7B3B006450C3 /* PinchApp.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6552E406287FDC0D006450C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6552E408287FDC34006450C3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
